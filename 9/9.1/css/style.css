@@ -1,0 +1,446 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-11 08:27:18
+ * @version $Id$
+ */
+
+ body {
+    background-color: #f0efed;
+ }
+
+.container-fluid {
+    width: 500px;
+}
+
+.container-fluid .head {
+    width: 500px;
+    height: 50px;
+    background-color: #06c1ae;
+    color: #fff;
+    border: 1px solid #05a494;
+}
+
+.container-fluid .head .head-1 .arrow {
+    width: 33px;
+    margin-top: 15px;
+    border: 0;
+    background-color: #06c1ae;
+    
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    background: url("../imgs/arrow.png") no-repeat right center;
+}
+
+.container-fluid .head .head-2 i {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+
+.container-fluid .head .head-2 input {
+    margin-top: 10px;
+    padding-left: 25px;
+    height: 30px;
+    border: 0;
+    background-color: #05a494;
+    float: left;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #65d9cc; 
+    opacity:1; 
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #65d9cc;
+    opacity:1;
+}
+
+.container-fluid .head .head-2 input:-ms-input-placeholder{
+    color: #65d9cc;
+    opacity:1;
+}
+
+.container-fluid .head .head-2 input::-webkit-input-placeholder{
+    color: #65d9cc;
+    opacity:1;
+}
+
+.container-fluid .head .head-3 {
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.container-fluid .head .head-3 div {
+    font-size: 13px;
+}
+
+/* 2...................................................................*/
+.container-fluid .cnt-2 {
+    height: 230px;
+    background-color: #fff;
+    border: 1px solid #ddd8ce;
+    border-top: none;
+}
+
+.container-fluid .cnt-2 div img {
+    margin: 15px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.container-fluid .cnt-2 div div {
+    padding-left: 30px;
+    font-size: 16px;
+    color: #8a8a8a;
+}
+
+/* 3....................................................... */
+.container-fluid .cnt-3 {
+    position: relative;
+    top: 15px;
+
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd8ce;
+    padding: 5px;
+}
+
+.container-fluid .cnt-3 .cnt-3-1 {
+    height: 185px;
+    padding-left: 20px;
+    border-right: 1px solid #ddd8ce;
+}
+
+.container-fluid .cnt-3 .cnt-3-1 div:first-child {
+    padding-top: 5px;
+    color: #55a40f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-fluid .cnt-3 .cnt-3-1 div:nth-child(2n) {
+    margin-top: 3px;
+    margin-bottom: 6px;
+    color: #6a6a6a;
+}
+
+.container-fluid .cnt-3 .cnt-3-1 img {
+    width: 120px;
+    height: 120px;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 {
+    height: 50%;
+    border-bottom: 1px solid #ddd8ce;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 div div div:first-child {
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #ff3f0d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 div div div:nth-child(2n) {
+    margin-top: 3px;
+    margin-bottom: 6px;
+    padding-left: 10px;
+    color: #6a6a6a;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 div div img {
+    height: 80px;
+    width: 80px;
+    padding-top: 3px;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 .cnt-3-3 {
+    height: 90px;
+    margin-top: 14px;
+    border-right: 1px solid #ddd8ce;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 .cnt-3-3 div {
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #f742a0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 .cnt-3-3 img {
+    width: 55px;
+    height: 55px;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 .cnt-3-4 {
+    height: 90px;
+    margin-top: 14px;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 .cnt-3-4 div:first-child {
+    padding-top: 5px;
+    color: #ff8601;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 .cnt-3-4 div:nth-child(2n) {
+    margin-top: 3px;
+    margin-bottom: 6px;
+    color: #6a6a6a;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 .cnt-3-4 .time {
+    width: 110px;
+    height: 23px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 .cnt-3-4 .time div:nth-child(2n+1) {
+    width: 27px;
+    height: 21px;
+    padding: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 21px;
+    border-radius: 5px;
+    background-color: #4c4c4c;
+    float: left;
+}
+
+.container-fluid .cnt-3 .cnt-3-2 .cnt-3-4 .time div:nth-child(2n) {
+    width: 8px;
+    height: 21px;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 21px;
+    float: left;
+}
+
+/*4 ...................................................*/
+.container-fluid .cnt-4 {
+    position: relative;
+    top: 30px;
+
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ddd8ce;
+}
+
+.container-fluid .cnt-4 .cnt-4-1 {
+    height: 100%;
+    padding-right: 0;
+    border-right: 1px solid #ddd8ce;
+}
+
+.container-fluid .cnt-4 .cnt-4-1 div div:first-child {
+    padding-top: 20px;
+    color: #ea6644;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.container-fluid .cnt-4 div div div:nth-child(2n) {
+    padding-top: 5px;
+    color: #9b9b9b;
+}
+
+.container-fluid .cnt-4 div img {
+    height: 88px;
+    margin-top: 5px;
+    padding-left: 25px;
+}
+
+.container-fluid .cnt-4 .cnt-4-2 {
+    height: 100%;
+    padding-right: 0;
+}
+
+.container-fluid .cnt-4 .cnt-4-2 div div:first-child {
+    padding-top: 20px;
+    color: #f99b09;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/*5 ...................................................*/
+.container-fluid .cnt-5 {
+    position: relative;
+    top: 45px;
+
+    height: 545px;
+    padding-left: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd8ce;
+}
+
+
+.container-fluid .cnt-5 .cnt-5-head {
+    height: 40px;
+    border-bottom: 1px solid #ddd8ce;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #5e5e5e;
+    line-height: 40px;
+}
+
+.container-fluid .cnt-5 .cnt-5-1,
+.container-fluid .cnt-5 .cnt-5-2,
+.container-fluid .cnt-5 .cnt-5-3,
+.container-fluid .cnt-5 .cnt-5-4 {
+    height: 120px;
+    margin: 0px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd8ce;
+}
+
+.container-fluid .cnt-5 .cnt-5-1 img {
+    width: 110px;
+    height: 100px;
+    padding: 0;
+}
+
+.container-fluid .cnt-5 .cnt-5-2 img,
+.container-fluid .cnt-5 .cnt-5-3 img,
+.container-fluid .cnt-5 .cnt-5-4 img {
+    width: 110px;
+    height: 100px;
+    margin-top: -8px;
+    padding: 0;
+}
+
+.container-fluid .cnt-5 .cnt-5-1 .good-intro,
+.container-fluid .cnt-5 .cnt-5-2 .good-intro,
+.container-fluid .cnt-5 .cnt-5-3 .good-intro,
+.container-fluid .cnt-5 .cnt-5-4 .good-intro {
+    margin-left: 15px;
+    padding-right: 0;
+}
+
+.container-fluid .cnt-5 .cnt-5-2 .good-intro,
+.container-fluid .cnt-5 .cnt-5-3 .good-intro,
+.container-fluid .cnt-5 .cnt-5-4 .good-intro {
+    margin-top: -8px;
+}
+
+.container-fluid .cnt-5 .cnt-5-1 .good-intro div:first-child,
+.container-fluid .cnt-5 .cnt-5-2 .good-intro div:first-child,
+.container-fluid .cnt-5 .cnt-5-3 .good-intro div:first-child,
+.container-fluid .cnt-5 .cnt-5-4 .good-intro div:first-child {
+    margin-left: -15px;
+    font-size: 18px;
+}
+
+.container-fluid .cnt-5 .cnt-5-1 .good-intro div:nth-child(2n),
+.container-fluid .cnt-5 .cnt-5-2 .good-intro div:nth-child(2n),
+.container-fluid .cnt-5 .cnt-5-3 .good-intro div:nth-child(2n),
+.container-fluid .cnt-5 .cnt-5-4 .good-intro div:nth-child(2n) {
+    margin-left: -15px;
+    color: #6a6a6a;
+}
+
+.container-fluid .cnt-5 .cnt-5-1 .good-intro .good-price .price-1-1,
+.container-fluid .cnt-5 .cnt-5-2 .good-intro .good-price .price-2-1,
+.container-fluid .cnt-5 .cnt-5-3 .good-intro .good-price .price-3-1,
+.container-fluid .cnt-5 .cnt-5-4 .good-intro .good-price .price-4-1 {
+    color: #06c1ae;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.container-fluid .cnt-5 .cnt-5-1 .good-intro .good-price .price-1-1 span,
+.container-fluid .cnt-5 .cnt-5-2 .good-intro .good-price .price-2-1 span,
+.container-fluid .cnt-5 .cnt-5-3 .good-intro .good-price .price-3-1 span,
+.container-fluid .cnt-5 .cnt-5-4 .good-intro .good-price .price-4-1 span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.container-fluid .cnt-5 .cnt-5-1 .good-intro .good-price .price-1-2 div,
+.container-fluid .cnt-5 .cnt-5-2 .good-intro .good-price .price-2-2 div {
+    margin-top: 30px;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #ff9900;
+    border-radius: 3px;
+
+    color: #ff9900;
+    font-size: 13px;
+    text-align: center;
+}
+
+.container-fluid .cnt-5 .cnt-5-1 .good-intro .good-price .price-1-3,
+.container-fluid .cnt-5 .cnt-5-2 .good-intro .good-price .price-2-3 {
+    padding-right: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 13px;
+    color: #666666;
+    text-align: right;
+}
+
+.container-fluid .cnt-5 .cnt-5-3 .good-intro .good-price .price-3-2 {
+    margin-top: 32px;
+    margin-left: -35px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.container-fluid .cnt-5 .cnt-5-4 .good-intro .good-price .price-4-2 {
+    margin-top: 32px;
+    margin-left: -50px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.container-fluid .cnt-5 .cnt-5-3 .good-intro .good-price .price-3-3 {
+    padding-right: 0;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 13px;
+    color: #666666;
+    text-align: right;
+}
+
+.container-fluid .cnt-5 .cnt-5-4 .good-intro .good-price .price-4-3 {
+    padding-right: 0;
+    margin-top: 30px;
+    margin-left: 65px;
+    font-size: 13px;
+    color: #666666;
+    text-align: right;
+}
+
+.container-fluid .end {
+    position: relative;
+    top: 20px;
+
+    width: 500px;
+    height: 50px;
+    background-color: #a0c5e8;
+    border: 1px solid #ddd8ce;
+}
+
+.container-fluid .end div:first-child {
+    padding-left: 15px;
+    font-size: 18px;
+    color: #4bb0cc;
+    line-height: 55px;
+}
+
+.container-fluid .end i {
+    color: #4bb0cc;
+    padding-top: 10px;
+}

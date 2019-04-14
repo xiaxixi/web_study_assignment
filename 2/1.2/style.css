@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-14 13:48:53
+ * @version $Id$
+ */
+
+
+ .container {
+    background-color: #fff;
+    width: 300px;
+    border: 1px solid #080808;
+ }
+
+/* 空行*/
+ .null {
+    height: 5px;
+ }
+
+ /* 七个单元格宽度分配(最后一个等于第一个的宽度).........................*/
+.indent1 {
+    width: 8px;
+}
+
+.indent2 {
+    width: 10px;
+}
+
+.cell-1 {
+    width: 88px;
+}
+
+.cell-2 {
+    width: 60px;
+}
+
+.cell-3 {
+    width: 60px;
+}
+
+.cell-4 {
+    width: 60px;
+}
+
+/* ..................................................................*/
+
+/* 大字号 */
+ .font1 {
+    height: 30px;
+    color: #080808;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+/* 小字号 */
+ .font2 {
+    height: 20px;
+    color: #080808;
+    font-size: 13px;
+ }
+
+ /* 更小字号 */
+ .font3 {
+    height: 12px;
+    color: #080808;
+    font-size: 12px;
+ }
+
+/* 粗黑线 */
+ .line1 {
+    height: 10px;
+    background-color: #080808;
+ }
+
+ /* 细黑线 */
+
+ .line2 {
+    height: 0.5px;
+    background-color: #080808;
+ }
+
+/* 中粗黑线 */
+.line3 {
+    height: 5px;
+    background-color: #080808;
+}
+
+ /* 细灰线 */
+.line4 {
+    height: 0.5px;
+    background-color: #aaa;
+}
+
+/* 文字靠右 */
+.right {
+    text-align: right;
+ }
+
+/* 文字靠右并加粗 */
+.rightbold {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* 无序列表 */
+.font2 ul {
+    list-style-type: disc;
+    margin: 4px;
+}
+
+.last {
+    height: 12px;
+    color: #080808;
+    font-size: 12px;
+    text-align: center;
+}

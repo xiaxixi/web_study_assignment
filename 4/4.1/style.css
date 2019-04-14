@@ -1,0 +1,422 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-08 08:26:13
+ * @version $Id$
+ */
+
+/*1.................................................*/
+.box-1 {
+    width: 584px;
+    height: 196px;
+    border: 1.5px solid #ddd;
+}
+
+.box-2 {
+    width: 584px;
+    height: 238px;
+    border-bottom: 1.5px solid #ddd;
+    border-left: 1.5px solid #ddd;
+    border-right: 1.5px solid #ddd;
+}
+
+.box-3 {
+    width: 584px;
+    height: 88px;
+    border-bottom: 1.5px solid #ddd;
+    border-left: 1.5px solid #ddd;
+    border-right: 1.5px solid #ddd;
+}
+
+.box-4 {
+    width: 584px;
+    height: 438px;
+    border-bottom: 1.5px solid #ddd;
+    border-left: 1.5px solid #ddd;
+    border-right: 1.5px solid #ddd;
+}
+
+
+.box-1-1 {
+    width: 100%;
+    height: 54px;
+}
+
+.box-1-1-1 {
+    width: 20%;
+    height: 43px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.box-1-1-2 {
+    position: relative;
+    left: 20%;
+    top: -55px;
+
+    width: 20%;
+    height: 43px;
+    padding-top: 12px;
+    border-left: 1.5px solid #ddd;
+    border-bottom: 1.5px solid #ddd;
+
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.box-1-1-3 {
+    position: relative;
+    left: 40%;
+    top: -111.5px;
+
+    width: 20%;
+    height: 43px;
+    padding-top: 12px;
+    border-bottom: 1.5px solid #ddd;
+
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+
+.box-1-1-4 {
+    position: relative;
+    left: 60%;
+    top: -168px;
+
+    width: 20%;
+    height: 43px;
+    padding-top: 12px;
+    border-bottom: 1.5px solid #ddd;
+
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.box-1-1-5 {
+    position: relative;
+    left: 80%;
+    top: -224px;
+
+    width: 20%;
+    height: 43px;
+    padding-top: 12px;
+    border-bottom: 1.5px solid #ddd;
+
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.box-1-1-1 span {
+    font-size: 23px;
+    font-weight: bold;
+    color: #2F4F4F;
+}
+
+.box-1-1-2, .box-1-1-3, .box-1-1-4, .box-1-1-5 span {
+    font-size: 23px;
+    color: #2F4F4F;
+}
+
+
+.box-1-2 {
+    width: 524px;
+    height: 31px;
+    margin-left: 28px;
+    margin-right: 25px;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    padding-top: 4px;
+    padding-left: 2px;
+    border: 1.5px solid #8B8878;
+}
+
+.box-1-3 {
+    width: 524px;
+    height: 31px;
+    margin-left: 28px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    padding-top: 4px;
+    padding-left: 2px;
+    border: 1.5px solid #8B8878;
+}
+
+.box-1-2, .box-1-3 span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2F4F4F;
+    vertical-align: bottom;
+}
+
+/*2.....................................................*/
+.box-2-1 {
+    position: relative;
+    left: 28px;
+    top: 17px;
+
+    width: 120px;
+    height: 127px;
+    background-image: url("images/image-1.PNG");
+    
+}
+
+.box-2-2 {
+    position: relative;
+    left: 172px;
+    top: -90px;
+
+    width: 379px;
+    height: 31px;
+    padding-left: 2px;
+    padding-top: 4px;
+    border:  1.5px solid #8B8878;
+}
+
+.box-2-3 {
+    position: relative;
+    left: 172px;
+    top: -78px;
+
+    width: 379px;
+    height: 31px;
+    padding-left: 2px;
+    padding-top: 4px;
+    border:  1.5px solid #8B8878;
+}
+
+
+/*登录*/
+.box-2-4 {
+    position: relative;
+    left: 28px;
+    top: -41px;
+
+    width: 186px;
+    height: 50px;
+    background-image: url("images/image-2.PNG");
+}
+
+
+/*免费注册*/
+.box-2-5 {
+    position: absolute;
+    left: 241px;
+    top: 369px;
+
+    width: 152px;
+    height: 50px;
+    background-image: url("images/image-3.PNG");
+}
+
+/*免费开店*/
+.box-2-6 {
+    position: absolute;
+    left: 409px;
+    top: 369px;
+
+    width: 154px;
+    height: 50px;
+    background-image: url("images/image-4.PNG");
+}
+
+
+/*3......................................................*/
+
+.box-3-1 {
+    position: relative;
+    left: 28px;
+    top: 25px;
+
+    width: 525px;
+    height: 35px;
+    border: 1.5px solid #8B8878;
+}
+
+
+/*4.......................................................*/
+
+/*充话费*/
+.box-4-1 {
+    width: 230px;
+    height: 290px;
+    border-right: 1.5px solid #ddd;
+    border-bottom: 1.5px solid #ddd;
+}
+
+.box-4-1-1 {
+    position: relative;
+    left: 65px;
+    top: 52px;
+
+    width: 85px;
+    height: 125px;
+
+    background-image: url("images/image-1.PNG");
+}
+
+.box-4-1-2 {
+    position: relative;
+    left: 70px;
+    top: 70px;
+
+    width: 80px;
+    height: 40px;
+
+    text-align: center;
+}
+
+/*游戏*/
+
+.box-4-2 {
+    position: absolute;
+    left: 240px;
+    top: 535px;
+
+    width: 118px;
+    height:145px; 
+    border-right: 1.5px solid #ddd;
+    border-bottom: 1.5px solid #ddd;
+
+}
+
+/*旅行*/
+.box-4-3 {
+    position: absolute;
+    left: 357px;
+    top: 535px;
+
+    width: 118px;
+    height:145px; 
+    border-right: 1.5px solid #ddd;
+    border-bottom: 1.5px solid #ddd;
+}
+
+/*保险*/
+.box-4-4 {
+    position: absolute;
+    left: 476px;
+    top: 535px;
+
+    width: 118px;
+    height:145px; 
+    border-bottom: 1.5px solid #ddd;
+}
+
+/*彩票*/
+.box-4-5 {
+    position: absolute;
+    left: 240px;
+    top: 681px;
+
+    width: 118px;
+    height: 145px;
+    border-right: 1.5px solid #ddd; 
+    border-bottom: 1.5px solid #ddd;
+}
+
+/*电影*/
+.box-4-6 {
+    position: absolute;
+    left: 357px;
+    top: 681px;
+
+    width: 118px;
+    height: 145px;
+    border-right: 1.5px solid #ddd; 
+    border-bottom: 1.5px solid #ddd;
+}
+
+/*点外卖*/
+.box-4-7 {
+    position: absolute;
+    left: 476px;
+    top: 681px;
+
+    width: 118px;
+    height:145px;
+    border-bottom: 1.5px solid #ddd;
+}
+
+/*理财*/
+.box-4-8 {
+    position: absolute;
+    left: 0px;
+    top: 827px;
+
+    width: 118px;
+    height: 148px;
+    border-right: 1.5px solid #ddd; 
+}
+
+/*找服务*/
+.box-4-9 {
+    position: absolute;
+    left: 121px;
+    top: 827px;
+
+    width: 118px;
+    height: 148px;
+    border-right: 1.5px solid #ddd; 
+}
+
+/*音乐*/
+.box-4-10 {
+    position: absolute;
+    left: 240px;
+    top: 827px;
+
+    width: 118px;
+    height: 148px;
+    border-right: 1.5px solid #ddd; 
+}
+
+/*水电煤*/
+.box-4-11 {
+    position: absolute;
+    left: 357px;
+    top: 827px;
+
+    width: 118px;
+    height: 148px;
+    border-right: 1.5px solid #ddd; 
+}
+
+/*火车票*/
+.box-4-12 {
+    position: absolute;
+    left: 476px;
+    top: 827px;
+
+    width: 118px;
+    height: 148px;
+}
+
+
+.box-small-1 {
+    position: relative;
+    left: 25px;
+    top: 20px;
+
+    width: 65px;
+    height: 65px;
+    background-image: url("images/image-1.PNG");
+}
+
+.box-small-2 {
+    position: relative;
+    left: 10px;
+    top: 30px;
+
+    width: 100px;
+    height: 40px;
+
+    text-align: center;
+}
+
+
+.box-4-1-2, .box-small-2 span {
+    font-size: 23px;
+    color: #8B8878;
+}

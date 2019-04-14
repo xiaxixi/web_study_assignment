@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-31 00:08:32
+ * @version $Id$
+ */
+
+ .container {
+ }
+
+ .title {
+    text-align: center;
+    list-style-type: none;
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+.big-title {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.small-title {
+   list-style-type: none;
+   font-size: 20px;
+}
+
+.container li a {
+    color:  #545454;
+}
+
+.null {
+    height: 15px;
+    list-style-type: none;
+}

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />  
+        <title>实验3 使用JS编写简单逻辑</title> 
+        <link href="table.css" rel="stylesheet" />
+    </head>
+    <body>
+        <table id="tbl">
+            <tr>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td onmousedown="show_coords(event)">31</td>
+                <td>32</td>
+            </tr>
+        </table>
+    </body>
+
+    <!--script 最好放在body之后，处理交互事件，等到内容显示之后-->
+    <script src="table.js"></script>
+</html>

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-26 22:25:08
+ * @version $Id$
+ */
+
+body {
+    background-color: black;
+}
+
+.indent {
+    width: 25px;
+}
+
+.menology {
+    background-color: #fff;
+    width: 500px;
+    height: 530px;
+    border-collapse: collapse;
+}
+
+#menology1 {
+    background-color: #e55b5b;
+    font-size: 120px;
+    font-family: Calibri;
+    font-weight: bold;
+    height: 120px;
+    vertical-align: bottom;
+    color: #fff;
+}
+
+#menology2 {
+    background-color: #e55b5b;
+    font-size: 60px;
+    height: 60px;
+    vertical-align: top;
+    color: #fff;
+}
+
+#menology3 {
+    height: 40px;
+    text-align: center;
+    color: #e55b5b;
+    font-size: 13px;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
+#menology4 {
+    height: 30px;
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
+.menology tr:last-child {
+    height: 20px;
+}

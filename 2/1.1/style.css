@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-23 08:54:36
+ * @version $Id$
+ */
+
+ body{
+    background-color: #080808;
+ }
+
+.container {
+    background-color: #fff;
+    width: 800px;
+    border-collapse: collapse;
+}
+
+.container tr{
+    height: 30px;
+}
+
+.c-first {
+    width: 10px;
+}
+
+.container tr:nth-child(2n+1) {
+    background-color: #bbb;
+    color: #080808;
+}
+
+.container tr:nth-child(2n) {
+    background-color: #fff;
+    color: #080808;
+}
+
+.container tr:first-child {
+    background-color: #009933;
+    color: #fff;
+    font-weight: bold;
+}

@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-20 12:58:26
+ * @version $Id$
+ */
+
+body { 
+    width: 100%;
+    min-width: 859px;
+
+    background-color: #f2f2f2;
+}
+
+.box {
+    margin:auto;
+    width: 859px;
+    height: 548px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box .box-good {
+    width: 273px;
+    height: 259px;
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*...............................................................*/
+.box .box-good .img-1 {
+    width: 273px;
+    height: 181px;
+
+    background-image: url("images/image-1.PNG");
+}
+
+.box .box-good .img-2 {
+    width: 273px;
+    height: 181px;
+
+    background-image: url("images/image-2.PNG");
+}
+
+.box .box-good .img-3 {
+    width: 273px;
+    height: 181px;
+
+    background-image: url("images/image-3.PNG");
+}
+
+.box .box-good .img-4 {
+    width: 273px;
+    height: 181px;
+
+    background-image: url("images/image-4.PNG");
+}
+
+.box .box-good .img-5 {
+    width: 273px;
+    height: 181px;
+
+    background-image: url("images/image-5.PNG");
+}
+
+.box .box-good .img-6 {
+    width: 273px;
+    height: 181px;
+
+    background-image: url("images/image-6.PNG");
+}
+
+/*..............................................................*/
+.box .box-good .box-bottom {
+    width: 259px;
+    height: 64px;
+
+    padding: 7px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*...............................................................*/
+.box .box-good .box-bottom .box-1 {
+    width: 259px;
+    height: 14px;
+
+    display: flex;
+}
+
+.box .box-good .box-bottom .box-1 div {
+    padding-right: 7px;
+}
+/*...............................................................*/
+.box .box-good .box-bottom .box-2 {
+    width: 259px;
+    height: 14px;
+
+    display: flex;
+    align-items: baseline;
+}
+
+.box-2 div {
+    margin-right: 4.7px;
+}
+
+.box-2 div:first-child {
+    width: 10px;
+    height: 10px;
+
+    padding: 0px;
+    margin: 0px;
+    background-image: url("images/special-1.PNG");
+}
+
+
+
+/*..............................................................*/
+.box .box-good .box-bottom .box-3 {
+    width: 259px;
+    height: 21px;
+
+    display: flex;
+    align-items: baseline;
+}
+
+.box .box-good .box-bottom .box-3 .gray-font {
+    width: 220px;
+
+    padding-left: 4px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .box-good .box-bottom .box-3 .gray-font div:last-child {
+    display: flex;
+    align-items: baseline;
+}
+
+.fire {
+    width: 10px;
+    height: 10px;
+    background-image: url("images/special-2.PNG");
+}
+
+
+/*...............................................................*/
+
+.black {
+    color: #080808;
+}
+
+.red {
+    color: #f72862;
+}
+
+.gray {
+    color: #aaa;
+}
+
+.small {
+    font-size: 11px;
+}
+
+.middle {
+    font-size: 15px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.line {
+    text-decoration: line-through;
+}

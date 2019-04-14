@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-08 08:26:13
+ * @version $Id$
+ */
+
+/*两个三角形覆盖*/
+.box-1 {
+    width: 300px;
+    height: 300px;
+    background-color: #ddd;
+}
+
+.box-2 {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 80px 80px 80px 80px;
+	border-left-color: 	#FF4500;
+	border-top-color: #FF4500;
+	border-right-color:  #ddd;
+	border-bottom-color: #ddd;
+}
+
+.box-3 {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 40px 40px 40px 40px;
+	border-left-color: 	#fff;
+	border-top-color: #fff;
+	border-right-color:  #FF4500;
+	border-bottom-color: #FF4500;
+}
+
+

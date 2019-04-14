@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-20 12:58:26
+ * @version $Id$
+ */
+
+body {
+    background-color: #99bd90;
+}
+
+.box {
+    width: 585px;
+    height: 555px;
+
+    margin-top: 40px;
+    margin-left: 70px;
+    border: 1px solid #080808;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box .top {
+    width: 585px;
+    height: 389px;
+
+    background-color: #ffffeb;
+    border-bottom: 1px solid #080808;
+}
+
+
+.box .bottom {
+    width: 555px;
+    height: 135px;
+
+    padding: 15px;
+    background-color: #ffe6f4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box .bottom .box-1 {
+    width: 533px;
+    height: 22px;
+
+    padding: 3px;
+    padding-left: 10px;
+    background-color: #fff;
+    border: 1px solid #080808;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.box .bottom .box-2 {
+    width: 533px;
+    height: 22px;
+
+    padding: 3px;
+    padding-left: 10px;
+    background-color: #fff;
+    border: 1px solid #080808;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: #f70c43;
+}
+
+.box .bottom .box-3 {
+    width: 533px;
+    height: 37px;
+
+    padding: 3px;
+    padding-left: 10px;
+    background-color: #fff;
+    border: 1px solid #080808;
+
+    display: flex;
+    align-items: baseline;
+}
+
+.box .bottom .box-3 .red-font1 { 
+    width: 16px;
+    height: 29px;
+
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f70c43;
+}
+
+.box .bottom .box-3 .red-font2 {
+    width: 100px;
+    height: 37px;
+
+    margin-right: 10px;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: #f70c43;
+}
+
+.box .bottom .box-3 .gray-font {
+    width: 397px;
+    height: 37px;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #595959;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .bottom .box-3 .gray-font div:first-child {
+    text-decoration: line-through;
+}
+
+
